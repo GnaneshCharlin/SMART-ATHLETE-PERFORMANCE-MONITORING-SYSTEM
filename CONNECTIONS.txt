@@ -1,0 +1,13 @@
+1. DHT11 (Temperature and Humidity Sensor)
+VCC (DHT11) → 3.3V (ESP32)
+GND (DHT11) → GND (ESP32)
+DATA (DHT11) → GPIO 15 (ESP32) (can be changed in the code if needed)
+
+2. MAX30100 (Heart Rate Sensor)
+VCC (MAX30100) → 3.3V (ESP32)
+GND (MAX30100) → GND (ESP32)
+SCL (MAX30100) → GPIO 22 (ESP32) (SCL pin)
+SDA (MAX30100) → GPIO 21 (ESP32) (SDA pin)
+
+3. Blynk (Wi-Fi Connection)
+Make sure you have an active Wi-Fi network and insert the appropriate Wi-Fi credentials and Blynk Auth Token in your code.
